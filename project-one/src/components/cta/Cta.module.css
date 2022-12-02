@@ -1,0 +1,30 @@
+.cta {
+    background: var( --gradient-bar);
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    padding: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+.cta button {
+    background: #111;
+    border-radius: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2;
+    padding: .5em 1em;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+    .cta{
+        justify-content: center;
+    }
+}
+
